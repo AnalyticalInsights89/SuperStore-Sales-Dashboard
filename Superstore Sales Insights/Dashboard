@@ -1,0 +1,103 @@
+# Superstore Sales Insights Dashboard
+
+This project focuses on analyzing the sales data of a superstore to uncover key business insights. The objective was to clean and preprocess the data in **Excel**, analyze it, and create an interactive dashboard showcasing sales trends, customer behavior, and product performance.
+
+---
+
+## Project Workflow
+
+### 1. Data Understanding
+The dataset includes the following key features:
+- **Sales Details**: Order status, sales amount, and order channels.
+- **Customer Demographics**: Age group, gender, and regional distribution.
+- **Product Categories**: Type of products sold (e.g., blouse, bottom, ethnic dress).
+- **Time Period**: Monthly sales trends.
+
+**Tools Used**:
+- **Excel**: For data cleaning and analysis.
+- **Excel Dashboard**: For visualization of insights.
+
+---
+
+### 2. Data Cleaning
+Performed in **Excel**:
+- **Handling Missing Data**: Ensured all missing data was filled or removed where necessary.
+- **Outliers**: Verified consistency in sales figures and order quantities to manage outliers.
+- **Standardization**: Unified formats for channels, months, and categories.
+- **Transformations**:
+  - Created calculated columns for **Monthly Sales**, **Gender Ratio**, and **Top States by Sales**.
+  - Grouped age data into categories like **Teenager**, **Adult**, and **Senior**.
+
+---
+
+### 3. Analysis
+Key metrics and summaries were derived:
+- **Order Status**:
+  - Majority of orders (38.8%) were delivered successfully.
+  - Refunds, returns, and cancellations accounted for a smaller percentage.
+- **Sales by Region**:
+  - **Karnataka** reported the highest sales, followed by Madhya Pradesh and Bihar.
+- **Channel Insights**:
+  - Amazon and Ajio were the leading order channels, contributing to over 60% of the total orders.
+- **Demographics**:
+  - Women made up 96% of customers, with men contributing only 4%.
+- **Product Performance**:
+  - **Ethnic Dresses** were the top-performing category, followed by **Blouses** and **Bottoms**.
+
+---
+
+### 4. Dashboard Creation
+The **Excel Dashboard** visualizes key insights:
+- **Visualizations**:
+  - **Line Chart**: Monthly trends of orders vs. sales.
+  - **Pie Charts**:
+    - Gender distribution of customers.
+    - Channel-wise order distribution.
+    - Order status breakdown.
+  - **Bar Charts**:
+    - Top 5 states contributing to sales.
+    - Age group distribution among customers.
+- **Filters/Interactivity**:
+  - Dynamic slicers for filtering by **Month**, **Channel**, and **Category**.
+
+---
+
+## Insights Derived
+1. **Top Performing States**:
+   - Karnataka leads in sales with ₹22.3M, followed by Madhya Pradesh and Bihar.
+
+2. **Customer Demographics**:
+   - Women constitute a significant majority of the customer base (96%).
+
+3. **Product Categories**:
+   - Ethnic Dresses drive the highest revenue, indicating their popularity.
+
+4. **Order Status**:
+   - Most orders (38.8%) were delivered successfully, while only 2% were cancelled.
+
+5. **Sales Channels**:
+   - Amazon contributes to nearly 40% of total orders, followed by Ajio and Flipkart.
+
+---
+
+## Files in the Repository
+- **Superstore_Sales_Dataset.xlsx**: Cleaned dataset for analysis.
+- **Superstore_Sales_Dashboard.xlsx**: Excel file containing the interactive dashboard.
+- **Images**: Screenshots of the dashboard for quick preview.
+- **ReadMe.md**: This file describing the project.
+
+---
+
+## How to Use
+1. Download the **Superstore_Sales_Dashboard.xlsx** file.
+2. Open it in **Excel** and interact with the slicers to explore different insights.
+3. View visualizations dynamically based on filters like **Month**, **Channel**, or **Category**.
+
+---
+
+## Skills Demonstrated
+- **Data Cleaning**: Managed missing data, outliers, and inconsistencies effectively.
+- **Data Analysis**: Derived actionable insights from raw sales data.
+- **Visualization**: Designed an engaging and interactive Excel dashboard.
+- **Business Understanding**: Provided insights to improve sales strategies and understand customer behavior.
+
