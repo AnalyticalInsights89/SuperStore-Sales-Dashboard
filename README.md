@@ -1,91 +1,45 @@
-# Superstore Sales Insights Dashboard
+# Super Store Sales Insights Dashboard 
 
-This project focuses on analyzing the sales data of a superstore to uncover key business insights. The objective was to clean and preprocess the data in **Excel**, analyze it, and create an interactive dashboard showcasing sales trends, customer behavior, and product performance.
+This project involves analyzing and visualizing superstore sales data to uncover meaningful business insights. From raw data cleaning to creating an interactive dashboard in **Power BI**, this project demonstrates the end-to-end data analysis process.
  
-
-## Project Workflow
-
-### 1. Data Understanding
-The dataset includes the following key features:
-- **Sales Details**: Order status, sales amount, and order channels.
-- **Customer Demographics**: Age group, gender, and regional distribution.
-- **Product Categories**: Type of products sold (e.g., blouse, bottom, ethnic dress).
-- **Time Period**: Monthly sales trends.
-
-**Tools Used**:
-- **Excel**: For data cleaning and analysis.
-- **Excel Dashboard**: For visualization of insights.
+##Project Objective
+To analyze the performance of a superstore's sales across regions, categories, and time periods, providing actionable insights for better decision-making.
  
+##Steps Performed**
 
-### 2. Data Cleaning
-Performed in **Excel**:
-- **Handling Missing Data**: Ensured all missing data was filled or removed where necessary.
-- **Outliers**: Verified consistency in sales figures and order quantities to manage outliers.
-- **Standardization**: Unified formats for channels, months, and categories.
-- **Transformations**:
-  - Created calculated columns for **Monthly Sales**, **Gender Ratio**, and **Top States by Sales**.
-  - Grouped age data into categories like **Teenager**, **Adult**, and **Senior**.
+### 1. **Data Cleaning**
+- Removed duplicates and null values to ensure data accuracy.
+- Standardized date formats and corrected inconsistencies.
+- Verified and categorized data columns such as `Ship Mode`, `Category`, and `Segment`.
+- Added calculated columns for profit margins and delivery timelines.
 
----
+### 2. **Data Transformation**
+- Grouped data to calculate total sales, profit, and average delivery time.
+- Created additional measures such as 'Sales by Segment and `Profit by State`.
+- Used DAX measures in Power BI for custom calculations, including:
+  - **Profit Margin**: `(Profit / Sales) * 100
+  - **Average Delivery Time**: AVERAGE(Days to Deliver)
 
-### 3. Analysis
-Key metrics and summaries were derived:
-- **Order Status**:
-  - Majority of orders (38.8%) were delivered successfully.
-  - Refunds, returns, and cancellations accounted for a smaller percentage.
-- **Sales by Region**:
-  - **Karnataka** reported the highest sales, followed by Madhya Pradesh and Bihar.
-- **Channel Insights**:
-  - Amazon and Ajio were the leading order channels, contributing to over 60% of the total orders.
-- **Demographics**:
-  - Women made up 96% of customers, with men contributing only 4%.
-- **Product Performance**:
-  - **Ethnic Dresses** were the top-performing category, followed by **Blouses** and **Bottoms**.
+### 3. **Dashboard Design in Power BI**
+The dashboard includes the following key visualizations:
+- **Cards**: Showcasing total sales, profit, and average delivery time.
+- **Pie Charts**: Breaking down sales by `Segment` and `Payment Mode`.
+- **Bar Charts**: Displaying sales and profit trends by sub-category and category.
+- **Line Charts**: Tracking sales and profit over months and years.
+- **Map Visualization**: Highlighting sales and profit distribution across states.
+- **Filters**: Region-based filters (Central, East, South, West) for customized analysis.
  
-### 4. Dashboard Creation
-The **Excel Dashboard** visualizes key insights:
-- **Visualizations**:
-  - **Line Chart**: Monthly trends of orders vs. sales.
-  - **Pie Charts**:
-    - Gender distribution of customers.
-    - Channel-wise order distribution.
-    - Order status breakdown.
-  - **Bar Charts**:
-    - Top 5 states contributing to sales.
-    - Age group distribution among customers.
-- **Filters/Interactivity**:
-  - Dynamic slicers for filtering by **Month**, **Channel**, and **Category* 
+## Key Insights**
+1. **Top-Selling Segment**: Consumer goods contributed to 53.57% of total sales.
+2. **Preferred Payment Mode**: 43.69% of transactions were Cash on Delivery (COD), followed by Online payments.
+3. **Profit Analysis**: The highest profits were recorded in the **Technology** category, with a significant share from **Phones** and **Tables**.
+4. **Regional Sales**: The **South region** outperformed others in terms of overall sales.
+5. **Monthly Trends**: Sales peaked during the holiday season (November and December), highlighting seasonality.
 
-## Insights Derived
-1. **Top Performing States**:
-   - Karnataka leads in sales with ₹22.3M, followed by Madhya Pradesh and Bihar.
-
-2. **Customer Demographics**:
-   - Women constitute a significant majority of the customer base (96%).
-
-3. **Product Categories**:
-   - Ethnic Dresses drive the highest revenue, indicating their popularity.
-
-4. **Order Status**:
-   - Most orders (38.8%) were delivered successfully, while only 2% were cancelled.
-
-5. **Sales Channels**:
-   - Amazon contributes to nearly 40% of total orders, followed by Ajio and Flipkart.
+## Tools Used**
+- **Power BI**: For interactive dashboard creation and visualizations.
+- **Excel**: For data cleaning and preprocessing.
  
-## Files in the Repository
-- **Superstore_Sales_Dataset.xlsx**: Cleaned dataset for analysis.
-- **Superstore_Sales_Dashboard.xlsx**: Excel file containing the interactive dashboard.
-- **Images**: Screenshots of the dashboard for quick preview.
-- **ReadMe.md**: This file describing the project.
- 
-## How to Use
-1. Download the **Superstore_Sales_Dashboard.xlsx** file.
-2. Open it in **Excel** and interact with the slicers to explore different insights.
-3. View visualizations dynamically based on filters like **Month**, **Channel**, or **Category**.
-
-## Skills Demonstrated
-- **Data Cleaning**: Managed missing data, outliers, and inconsistencies effectively.
-- **Data Analysis**: Derived actionable insights from raw sales data.
-- **Visualization**: Designed an engaging and interactive Excel dashboard.
-- **Business Understanding**: Provided insights to improve sales strategies and understand customer behavior.
-
+## How to Use**
+1. Clone this repository to your local system:
+   git clone https://github.com/yourusername/super-store-sales-dashboard.git
